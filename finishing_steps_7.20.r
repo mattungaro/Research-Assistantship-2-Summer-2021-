@@ -49,10 +49,4 @@ for (object1 in seq_along(list_poly)) {
 }
 
 
-#st_write(, "C:\\Users\\Owner\\Desktop\\Summer Project\\urban\\finishing_steps\\test4_dissol.shp")
 
-#for (object1 in seq_along(list_poly)) {
-#  st_write(list_poly[[object1]], 
- #             paste(names(list_poly)[object1], "_clip3.shp", sep= ""),
-  #             sep = "\t",overwrite = TRUE)
-#}
