@@ -17,7 +17,6 @@ leaflet(st_transform(recent, 4326)) %>% addTiles() %>% addPolygons(popup = ~html
 #  330 observations
 # Lets get the images in the format that I can use to search for them.
 recent2=transform(recent, firm_id_mod = paste(FIRM_ID,SUFFIX, sep = ""))
-# Could I then api the website and grab everything with those names? Maybe?
 
 recent3 <- recent2 %>% mutate(letter = ifelse((SUFFIX == "K"), "J", ifelse((SUFFIX == "L"),"K", "L") ))        
 recent3 <- transform(recent3, firm_id_mod2 = paste(FIRM_ID, letter, sep=""))
