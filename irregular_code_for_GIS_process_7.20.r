@@ -1,3 +1,8 @@
+# This process starts in R and finishes in Python. This takes PNG images, reclassifies them, and 
+# turns them into TIFFs.
+# This is for irregular images - these tend to be clustered within Mecklenburg County. The full list
+# is contained in the master list.
+
 library(rgdal)
 library(raster)
 library(rgeos)
