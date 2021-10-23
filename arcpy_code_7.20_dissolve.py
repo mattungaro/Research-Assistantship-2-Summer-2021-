@@ -1,3 +1,6 @@
+# After manually fixing a number of images, I ran my finishing steps script - and then considered using 
+# this script to convert the many polygons into several large polygons with the same attributes.
+
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jul 20 17:31:27 2021
