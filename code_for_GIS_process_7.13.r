@@ -1,5 +1,6 @@
-# This process starts in R and finishes in Python. There may be an easier way to do this all in Python, but 
-# I am more familiar with R and parts of the arcpy package in Python.
+# This process starts in R and finishes in Python. This takes PNG images, reclassifies them, and 
+# turns them into TIFFs.
+
 library(rgdal)
 library(raster)
 library(rgeos)
