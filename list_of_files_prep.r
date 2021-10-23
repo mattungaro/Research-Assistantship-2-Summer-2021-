@@ -1,3 +1,5 @@
+# This process was used to prepare a list of images to acquire from the FEMA Flood Hazard database. 
+
 library(plyr)
 library(tidyverse)
 library(data.table)
