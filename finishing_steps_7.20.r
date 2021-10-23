@@ -1,3 +1,6 @@
+# After editing the new shapefiles in QGIS, I bring them back here to finish
+# my steps.
+
 library(tidyverse)
 library(data.table)
 library(sf)
