@@ -5,7 +5,10 @@ Created on Tue Jul 20 10:16:31 2021
 @author: Owner
 """
 
-
+# This process starts in R and finishes in Python. This takes the TIFFs and turns them into
+# a vector layer.
+# This is for irregular images - these tend to be clustered within Mecklenburg County. The full list
+# is contained in the master list.
 
 import arcpy
 from arcpy import env
