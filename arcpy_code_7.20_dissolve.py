@@ -33,8 +33,7 @@ for InPoly in polys:
                           outFolder+"\\"+InPoly[0:11]+"dissolve.shp", zone, 
                          # [[zone, {"COUNT"}]], "MULTI_PART",
                           "DISSOLVE_LINES")
-    #union?
-    
+ 
     
     
     
