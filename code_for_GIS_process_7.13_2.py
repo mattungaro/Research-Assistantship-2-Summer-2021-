@@ -4,7 +4,8 @@ Created on Tue Jul 13 13:16:31 2021
 
 @author: Owner
 """
-
+# This process starts in R and finishes in Python. This takes the TIFFs and turns them 
+# into polygons.
 
 import arcpy
 from arcpy import env
